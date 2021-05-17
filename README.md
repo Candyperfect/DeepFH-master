@@ -1,5 +1,5 @@
-# DeepLap
-"[DeepLap: Protein Function Prediction with Label Attention and Propagation]"
+# DeepFH
+"[DeepFH: Protein Function Prediction based on the Flat and Herarchical classification]"
 
 # Environment Settings 
 * python == 3.7   
@@ -13,7 +13,7 @@
 
 # Usage 
 ````
-CUDA_VISIBLE_DEVICES=1 nohup python DeepLap_main.py 
+CUDA_VISIBLE_DEVICES=1 nohup python DeepFH_main.py 
 ````
 
 # Data
@@ -29,7 +29,7 @@ Please first **unzip** the data folders and then use. The files in folders are a
 ````
 Yeast_cc/
 ├─yeast_new.txt: Yeast protein sequence.  
-├─cc_Yeast_GOnames.mat: name text of GO term.  
+├─cc_Yeast_GOnames.mat: text information of GO term.  
 ├─cc_Yeast_Linsim.mat: taxonomic similarity of GO term.  
 └─Yeast_ccNew.mat: Yeast protein functional annotations
 
