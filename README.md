@@ -13,7 +13,7 @@
 
 # Usage 
 ````
-CUDA_VISIBLE_DEVICES=1 nohup python DeepFH_main.py 
+CUDA_VISIBLE_DEVICES=1 nohup python model_main.py 
 ````
 
 # Data
