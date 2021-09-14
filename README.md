@@ -1,5 +1,5 @@
-# DeepFH
-"[DeepFH: Protein Function Prediction based on the Flat and Herarchical classification]"
+# Our method
+"[knowledge-augmented protein function prediction via the textual semantic information of gene ontology terms]"
 
 # Environment Settings 
 * python == 3.7   
