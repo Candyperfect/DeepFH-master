@@ -1,4 +1,4 @@
-# Our method
+# README
 "[knowledge-augmented protein function prediction via the textual semantic information of gene ontology terms]"
 
 # Environment Settings 
