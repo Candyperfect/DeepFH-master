@@ -1,5 +1,5 @@
 # README
-"[knowledge-augmented protein function prediction via the textual semantic information of gene ontology terms]"
+"[Protein function prediction using semantic knowledge from gene ontology and protein sequences]"
 
 # Environment Settings 
 * python == 3.7   
