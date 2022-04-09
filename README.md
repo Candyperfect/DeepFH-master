@@ -29,8 +29,8 @@ Please first **unzip** the data folders and then use. The files in folders are a
 ````
 Yeast_cc/
 ├─yeast_new.txt: Yeast protein sequence.    
-├─cc_Yeast_Linsim.mat: taxonomic similarity and direct acyclic graph of GO term.  
-└─Yeast_cc.mat: Yeast protein functional annotations
+├─cc_yeast_Linsim.mat: taxonomic similarity and direct acyclic graph of GO term.  
+└─yeast_cc.mat: Yeast protein functional annotations
 
 ````
 
