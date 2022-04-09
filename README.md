@@ -9,7 +9,7 @@
 * pytorch_pretrained_bert == 0.6.2  
 * transformers == 2.8.0  
 * scikit-learn == 0.22.2  
-* fair-esm==0.4.0
+* fair-esm ==0.4.0
 
 # Usage 
 ````
@@ -29,7 +29,7 @@ Please first **unzip** the data folders and then use. The files in folders are a
 ````
 Yeast_cc/
 ├─yeast_new.txt: Yeast protein sequence.    
-├─cc_Yeast_Linsim.mat: taxonomic similarity and DAG of GO term.  
+├─cc_Yeast_Linsim.mat: taxonomic similarity and direct acyclic graph of GO term.  
 └─Yeast_cc.mat: Yeast protein functional annotations
 
 ````
