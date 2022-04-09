@@ -1,5 +1,5 @@
 # README
-"[Protein function prediction using semantic knowledge from gene ontology and protein sequences]"
+"[Adaptive Multi-view Graph Convolutional Networks for Protein Function Prediction]"
 
 # Environment Settings 
 * python == 3.7   
@@ -9,7 +9,7 @@
 * pytorch_pretrained_bert == 0.6.2  
 * transformers == 2.8.0  
 * scikit-learn == 0.22.2  
-* biobert_v1.1_pubmed_v2.5.1_convert
+* fair-esm==0.4.0
 
 # Usage 
 ````
@@ -28,10 +28,9 @@ CUDA_VISIBLE_DEVICES=1 nohup python model_main.py
 Please first **unzip** the data folders and then use. The files in folders are as follows:
 ````
 Yeast_cc/
-├─yeast_new.txt: Yeast protein sequence.  
-├─cc_Yeast_GOnames.mat: text information of GO term.  
-├─cc_Yeast_Linsim.mat: taxonomic similarity of GO term.  
-└─Yeast_ccNew.mat: Yeast protein functional annotations
+├─yeast_new.txt: Yeast protein sequence.    
+├─cc_Yeast_Linsim.mat: taxonomic similarity and DAG of GO term.  
+└─Yeast_cc.mat: Yeast protein functional annotations
 
 ````
 
