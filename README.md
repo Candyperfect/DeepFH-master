@@ -25,12 +25,13 @@ CUDA_VISIBLE_DEVICES=1 nohup python model_main.py
 * **├─Saccharomyces cerevisiae (or Yeast)  
 
 ## Usage
-Please first **unzip** the data folders and then use. The files in folders are as follows:
+Please first **unzip** the data folders and then use. 
 ````
-Yeast_cc/
-├─yeast_new.txt: Yeast protein sequence.    
-├─cc_yeast_Linsim.mat: taxonomic similarity and direct acyclic graph of GO term.  
-└─yeast_cc.mat: Yeast protein functional annotations
+Yeast/
+├─Yeast_new.txt: Yeast protein sequence.    
+├─Yeast_Linsim.mat: taxonomic similarity and direct acyclic graph of GO term.  
+├─Yeast_Scores.mat: protein sequence scores based on the BLAST method.  
+└─YeastNGOA_R.mat: Yeast protein functional annotations
 
 ````
 
